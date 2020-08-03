@@ -7,13 +7,13 @@ import (
 	"strings"
 )
 
-func swapSlice(s *[]int) {
+func swapSlice1(s *[]int) {
 	for i, j := 0, len(*s)-1; i < j; i, j = i+1, j-1 {
 		(*s)[i], (*s)[j] = (*s)[j], (*s)[i]
 	}
 }
 
-func getInputnums() []int {
+func getInputnums1() []int {
 	in := bufio.NewReader(os.Stdin)
 	line, _ := in.ReadString('\n')
 

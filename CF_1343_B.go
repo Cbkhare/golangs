@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main1343() {
 	var a, b int
 	fmt.Scan(&a)
 	for i := 0; i < a; i++ {
@@ -32,7 +32,6 @@ func main() {
 		}
 	}
 }
-
 
 /*
 https://codeforces.com/problemset/problem/1343/B

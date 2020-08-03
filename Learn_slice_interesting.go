@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func mainSliceIntrst() {
 
 	x := [...]int{1, 2, 3, 5, 6}
 	s := x[1:3]

@@ -35,7 +35,7 @@ func specialNums(n *[]int) (count int) {
 		l1 := len(s) - 1
 		j := 0
 		if _, ok := mp[(*n)[i]]; ok {
-			count += 1
+			count++
 		}
 		for j < i {
 			var x int
@@ -46,7 +46,7 @@ func specialNums(n *[]int) (count int) {
 			}
 			s = append(s, x)
 			mp[x] = true
-			j += 1
+			j++
 		}
 		//fmt.Println(s)
 	}
@@ -58,7 +58,7 @@ func specialNums(n *[]int) (count int) {
 	return count
 }
 
-func main() {
+func main1352() {
 	var a, b int
 	fmt.Scan(&a)
 	for i := 0; i < a; i++ {
