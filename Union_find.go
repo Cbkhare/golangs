@@ -38,7 +38,7 @@ type QUImproved interface {
 	quiConstruct(n int)
 }
 
-// QUImproved implement qui and is weighted implementation of Quick Union
+// QUImprovedPathCompression implement qui and is weighted implementation of Quick Union
 type QUImprovedPathCompression interface {
 	QuiUnionPathComp(a int, b int)
 	QuiConnectedPathComp(a int, b int) bool
